@@ -1,0 +1,50 @@
+
+{
+  "name": "Visionary Creator Studio",
+  "short_name": "Visionary",
+  "description": "Advanced AI Creative Suite for professional creators.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "categories": ["productivity", "photo", "graphics_design"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Image",
+      "short_name": "New Image",
+      "description": "Generate a new AI image",
+      "url": "./?tool=IMAGE_GEN",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Video",
+      "short_name": "New Video",
+      "description": "Generate a cinematic video",
+      "url": "./?tool=VIDEO_GEN",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1000",
+      "sizes": "1000x600",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}

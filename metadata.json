@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Visionary Creator Studio",
+  "description": "An advanced AI-powered creative suite for generating unique characters, stories, and high-quality artistic imagery using Gemini 2.5 and 3 models.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
